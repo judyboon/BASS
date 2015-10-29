@@ -3,7 +3,7 @@ This repository contains the implementation of _BASS_,  a group factor analysis 
 For details of the model, please see http://arxiv.org/abs/1411.2698.
 
 # Introduction
-## _BASS_ stands for Bayesian group factor Analysis with Structured Sparsity priors
+_BASS_ stands for Bayesian group factor Analysis with Structured Sparsity priors
 It extends traditional factor analysis model to _m_ coupled observation matrices (views).
 
 BASS could be used to estimate both covariance specific to each observation matrix 
