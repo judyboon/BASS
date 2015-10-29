@@ -25,11 +25,7 @@ done
 string+=" -n "$n" -itr "$S" -step "$step" -mcmc "$MCMCS" -px "$PXS
 
 echo $string
+fileOut="../output/MCMC${MCMCS}PX${PXS}ik${k}n${n}"
+string=$string" -out "$fileOut
+eval $string
 
-for rep in {1..20}
-do
-    fileOut="../output/MCMC${MCMCS}PX${PXS}rep${rep}ik${k}n${n}${Sim}"
-    stringrep=$string" -out "$fileOut
-    eval $stringrep
-    sleep 0.5;
-done
