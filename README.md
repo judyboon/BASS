@@ -10,9 +10,9 @@ BASS could be used to estimate both covariance specific to each observation matr
 and shared variation across any subset of observations. 
 
 # About the folders
-_simData_ contains simulation data sets used in the orignal paper of BASS.
-_code_ contains all source code of implementing BASS.
-_output_ contains the output files/folders after running BASS.
+* _simData_ contains simulation data sets used in the orignal paper of BASS.
+* _code_ contains all source code of implementing BASS.
+* _output_ contains the output files/folders after running BASS.
 
 ## Code
 
