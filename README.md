@@ -33,11 +33,14 @@ Explaination of arguments:
 * -sep: how the data are separated. arguments: "space" "tab"
 * -k: initial number of latent factors
 * -v: number of observations (views)
-* -p1 up to -pv: the dimensions of each observation
+* -p1 up to -pv: the dimension of each observation
 * -n: number of subjects
 * -iter: maximum iteration allowed
 * -step: number of steps to store parameters
 * -mcmc: number of MCMC steps
 * -px: number of PX-EM steps
 * -output: output directory
+
+### Analyzing results
+R script _analyze.R_ provides an example of analyzing outputs of BASS
 
