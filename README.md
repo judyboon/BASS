@@ -10,13 +10,13 @@ BASS could be used to estimate both covariance specific to each observation matr
 and shared variation across any subset of observations. 
 
 # About the folders
-* _simData_ contains simulation data sets used in the orignal paper.
+* _simData_ contains simulation data sets used in the original paper.
 * _code_ contains all source code of implementation.
 * _output_ contains the output files/folders after running BASS.
 
 ## Code
 ### Compilation
-Use Makefile to compile the source code to an excutable file. 
+Use Makefile to compile the source code to an executable file. 
 It requires installation of GNU Scientific Library (GSL). 
 Please make sure the library has been installed in your OS.
 
@@ -28,7 +28,7 @@ It generates following commands
   > -n 100 -iter 20000 -step 50 -mcmc 0 -px 20 
   > -output ../output/MCMC0PX20ik15n100
 
-Explaination of arguments:
+Explanation of arguments:
 * -y: joint data matrix file (p by n) with variables (features) are represented by row and subjects are in column
 * -sep: how the data are separated. arguments: "space" "tab"
 * -k: initial number of latent factors
@@ -47,5 +47,3 @@ R script _analyze.R_ provides an example of analyzing outputs of BASS.
 ### Acknowledgement
 The source code _RngStream.cpp_, _RngStream.h_ and *gig_par.cpp*, *gig_par.h* are downloaded from
 http://jonaswallin.github.io/articles/2013/07/simulation-of-gig-distribution/ to draw samples from generalized inverse Gaussian distribution. 
-
-
