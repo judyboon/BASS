@@ -42,5 +42,10 @@ Explaination of arguments:
 * -output: output directory
 
 ### Analyzing results
-R script _analyze.R_ provides an example of analyzing outputs of BASS
+R script _analyze.R_ provides an example of analyzing outputs of BASS.
+
+### Acknowledgement
+The source code _RngStream.cpp_, _RngStream.h_ and *gig_par.cpp*, *gig_par.h* are downloaded from
+http://jonaswallin.github.io/articles/2013/07/simulation-of-gig-distribution/ to draw samples from generalized inverse Gaussian distribution. 
+
 
