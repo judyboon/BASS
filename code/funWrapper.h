@@ -1,5 +1,5 @@
-#ifndef ADDFUNS_H
-#define ADDFUNS_H
+#ifndef FUNWRAPPER_H
+#define FUNWRAPPER_H
 
 #include "gig_par.h"
 
@@ -152,4 +152,4 @@ double calculateLogLikelihood(const gsl_matrix * Y,
                               const gsl_matrix * Lambda, const gsl_matrix * Eta,
                               const gsl_vector * Sigma2inv);
 
-#endif // SMALLFUNS_H
+#endif // FUNWRAPPER_H
