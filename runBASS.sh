@@ -11,7 +11,7 @@ step=50  # step size to record results
 MCMCS=0  # MCMC iteration
 PXS=20  # PX-EM iteration
 
-fileY="Yn100sim5.sim";
+fileY="../simData/Yn100sim5.sim";
 
 # following to generate command to run BASS
 string="./main -y "${fileY}" -sep "${sep}
@@ -28,7 +28,7 @@ echo $string
 
 for rep in {1..20}
 do
-    fileOut="output/MCMC${MCMCS}PX${PXS}rep${rep}ik${k}n${n}${Sim}"
+    fileOut="../output/MCMC${MCMCS}PX${PXS}rep${rep}ik${k}n${n}${Sim}"
     stringrep=$string" -out "$fileOut
     eval $stringrep
     sleep 0.5;
