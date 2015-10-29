@@ -28,4 +28,16 @@ It generates following commands
   > -n 100 -iter 20000 -step 50 -mcmc 0 -px 20 
   > -output ../output/MCMC0PX20ik15n100
 
+Explaination of arguments:
+-y: joint data matrix file (p by n) with variables (features) are represented by row and subjects are in column.
+-sep: how the data are separated. arguments: "space" "tab"
+-k: initial number of latent factors.
+-v: number of observations (views).
+-p1 up to -pv: the dimensions of each observation.
+-n: number of subjects.
+-iter: maximum iteration allowed.
+-step: number of steps to store parameters.
+-mcmc: number of MCMC steps.
+-px: number of PX-EM steps.
+-output: output directory.
 
