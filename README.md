@@ -27,7 +27,7 @@ Please make sure the library has been installed in your OS.
 Shell script _runBASS.sh_ provides an example of running BASS with simulation data set "Yn100sim5.sim".
 It generates following commands
 > ./main -y ../simData/Yn100sim5.sim -sep space -k 15 
-  > -v 10 -p1 50 -p2 50 -p3 50 -p4 50 -p5 50 -p6 50 -p7 50 -p8 50 -p9 50
+  > -v 10 -p1 50 -p2 50 -p3 50 -p4 50 -p5 50 -p6 50 -p7 50 -p8 50 -p9 50 -p10 50
   > -n 100 -iter 20000 -step 50 -mcmc 0 -px 20 
   > -output ../output/MCMC0PX20ik15n100
 
