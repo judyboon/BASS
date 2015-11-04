@@ -21,7 +21,8 @@ find shared topics among different classes of documents have been demonstrated i
 ### Compilation
 BASS is implemented using C++. Use Makefile to compile the source code to an executable file. 
 It requires installation of GNU Scientific Library (GSL). 
-Please make sure the library has been installed in your OS.
+Make sure the library has been installed in your OS and 
+the path has been correctly specified in _Makefile_.
 
 ### Running
 Shell script _runBASS.sh_ provides an example of running BASS with simulation data set "Yn100sim5.sim".
