@@ -19,7 +19,7 @@ find shared topics among different classes of documents have been demonstrated i
 
 ## Code
 ### Compilation
-Use Makefile to compile the source code to an executable file. 
+BASS is implemented using C++. Use Makefile to compile the source code to an executable file. 
 It requires installation of GNU Scientific Library (GSL). 
 Please make sure the library has been installed in your OS.
 
