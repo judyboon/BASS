@@ -1,6 +1,23 @@
 # BASS
 This repository contains the implementation of _BASS_,  a group factor analysis model with Bayesian structured sparsity priors.
-For details of the model, please see http://arxiv.org/abs/1411.2698.
+For details of the model, please see http://arxiv.org/abs/1411.2698. 
+The draft is published on Journal of Machine Learning Research (JMLR).
+
+# Copyright
+This source code is supplied “as is” without warranty of any kind, 
+and its author and the Journal of Machine Learning Research (JMLR) 
+and JMLR’s publishers and distributors, disclaim any and all warranties, 
+including but not limited to any implied warranties of merchantability 
+and fitness for a particular purpose, and any warranties or non 
+infringement. The user assumes all liability and responsibility for use 
+of this source code, and neither the author nor JMLR, nor JMLR’s 
+publishers and distributors, will be liable for damages of any kind 
+resulting from its use. Without limiting the generality of the foregoing, 
+neither the author, nor JMLR, nor JMLR’s publishers and distributors, 
+warrant that the source code will be error-free, will operate without 
+interruption, or will meet the needs of the user.
+
+
 
 # Introduction
 _BASS_ stands for Bayesian group factor Analysis with Structured Sparsity priors.
