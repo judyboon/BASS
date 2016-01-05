@@ -3,7 +3,12 @@ This repository contains the implementation of _BASS_,  a group factor analysis 
 For details of the model, please see http://arxiv.org/abs/1411.2698. 
 The draft is published on Journal of Machine Learning Research (JMLR).
 
-# Copyright
+# License
+This software is distributed under the terms of the GNU General Public 
+License as published by the Free Software Foundation, either version 3 
+of the License, or (at your option) any later version.
+
+# JLMR Copyright
 This source code is supplied “as is” without warranty of any kind, 
 and its author and the Journal of Machine Learning Research (JMLR) 
 and JMLR’s publishers and distributors, disclaim any and all warranties, 
@@ -16,7 +21,6 @@ resulting from its use. Without limiting the generality of the foregoing,
 neither the author, nor JMLR, nor JMLR’s publishers and distributors, 
 warrant that the source code will be error-free, will operate without 
 interruption, or will meet the needs of the user.
-
 
 
 # Introduction
